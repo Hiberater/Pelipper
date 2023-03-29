@@ -51,8 +51,6 @@ public class LoginController {
 			return "redirect:"+session.getAttribute("url");
 		}
 		return "forward:/";
-
 	}
 
-	
 }

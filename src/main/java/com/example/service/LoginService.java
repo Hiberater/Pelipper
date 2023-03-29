@@ -30,7 +30,7 @@ public class LoginService {
 		if(user == null) {
 			return null;
 		}
-		if (password.equals(user.getPassword())) {
+		if (!password.equals(user.getPassword())) {
 			return null;
 		}
 		return user;
