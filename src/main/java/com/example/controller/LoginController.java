@@ -1,14 +1,15 @@
-package controller;
+package com.example.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import domain.User;
-import form.LoginForm;
+import com.example.domain.User;
+import com.example.form.LoginForm;
+import com.example.service.LoginService;
+
 import jakarta.servlet.http.HttpSession;
-import service.LoginService;
 
 /**
  * ユーザー情報を操作するコントローラークラス.

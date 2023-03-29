@@ -1,10 +1,10 @@
-package service;
+package com.example.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import domain.User;
-import repository.UserRepository;
+import com.example.domain.User;
+import com.example.repository.UserRepository;
 
 /**
  * ユーザー情報を操作するサービスクラス.
